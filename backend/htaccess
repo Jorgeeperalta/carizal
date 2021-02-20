@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Headers: "customKey1,customKey2, headers, Origin, X-Requested-With, Content-Type, Accept, Authorization"

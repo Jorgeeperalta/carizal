@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mapa Satelital el Carrizal (1)_1.kml</name>
+	<open>1</open>
+	<Placemark>
+		<name>Feature 1</name>
+		<ExtendedData>
+			<Data name="pk">
+				<value>2119439</value>
+			</Data>
+			<Data name="extent">
+				<value>SRID=4326;POLYGON ((-56.80422372531192 -36.49864155540901,
+				 -56.74466969466972 -36.49864155540901,
+				  -56.74466969466972 -36.46467863394712, 
+				  -56.80422372531192 -36.46467863394712, 
+				  -56.80422372531192 -36.49864155540901))</value>
+			</Data>
+			<Data name="name">
+				<value>Feature 1</value>
+			</Data>
+			<Data name="aoi">
+				<value>666321</value>
+			</Data>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-56.80313499793891,-36.46467863394712,0 -56.74663722103642,-36.46634279823829,0 -56.74804157798606,-36.47179621272022,0 -56.74466969466972,-36.48577716390901,0 -56.75406220120481,-36.4854377211856,0 -56.75578481683124,-36.49864155540901,0 -56.80422372531192,-36.49471870926803,0 -56.80138849542121,-36.48351831463255,0 -56.80403419168973,-36.48273346612014,0 -56.80313499793891,-36.46467863394712,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<GroundOverlay>
+		<name>Superposición de imágenes sin título</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="file:///C:/Users/edude/Downloads/oct6.jpg">]]></description>
+		<Icon>
+			<href>TIFFgRANDE.tiff</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-36.43375384297081</north>
+			<south>-36.49104057258847</south>
+			<east>-56.71572727812697</east>
+			<west>-56.81683118984393</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
